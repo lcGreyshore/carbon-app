@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { HashRouter as Router } from 'react-router-dom';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Router>,
   document.getElementById('root')
 );
 

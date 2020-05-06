@@ -1,0 +1,21 @@
+@import './mixins.scss';
+@import './overrides.scss';
+
+.subjects-page__banner {
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-07 * 4;
+  @include subjects-page-background;
+}
+
+.subjects-page__heading {
+  @include carbon--type-style('productive-heading-05');
+}
+
+.subjects-page__r2 {
+  margin-top: rem(-40px);
+}
+
+.subjects-page .bx--row {
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-05;
+}

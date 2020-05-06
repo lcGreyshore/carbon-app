@@ -1,0 +1,9 @@
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/typography.scss';
+@import 'carbon-components/scss/globals/scss/vars.scss';
+
+@import './components/AuthoringHeader/authoring-header.scss';
+@import './components/AuthoringSidenav/authoring-sidenav.scss';
+@import './content/SubjectsPage/subjects-page.scss';
+@import './content/ItemsPage/items-page.scss';
